@@ -1,0 +1,56 @@
+.about{
+    width: 100%;
+    height: 400px;
+    color:#282938;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 128px;  
+    margin-bottom: 128px;  
+}
+
+.about .content{
+    width: 595px;
+    height: 303px;    
+    color:#282938;
+}
+
+.about .content .T1{
+    color: #282938;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    width: 419px;
+  
+}
+
+.about .content .T2{
+    width: 595px;
+    color: #282938;
+    font-family: Poppins;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 74px;
+}
+
+.about .content .T3{
+    color:#282938;
+    text-align: justify;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    width: 484px;
+    opacity: 0.7;
+}
+
+.about .pic{
+    width: 547px;
+    height: 336px;
+    object-fit: cover;
+}

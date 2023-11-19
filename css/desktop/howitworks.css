@@ -1,0 +1,66 @@
+.howitworks{
+    width: 100%;
+    height: 661px;
+    background-color: #F4F6FC;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.howitworks  .heading{
+    width: 405px;
+    height: 184px;
+    display: flex;
+    flex-flow: row wrap;
+    margin-left:10px ;
+    margin-bottom: 349px;
+    background-color: #F4F6FC;  
+}
+
+.howitworks .heading .one{
+    width: 405px;
+    height: 64px;
+    color: var(--Dark-blue, #282938);
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 64px; 
+    margin-top: 128px;  
+}
+
+.howitworks .heading .two{
+    width: 405px;
+    height: 56px;
+    color: var(--Dark-blue, #282938);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; 
+    opacity: 0.7;
+}
+
+.howitworks .heading .three{
+    width: 244px;
+    height: 32px;
+    color: var(--Royal-Blue, #2405F2);
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px; 
+}
+
+.howitworks  .cards{
+width: 656px;
+height: 405px;
+}
+.howitworks  .cards svg{
+    width: 656px;
+    height: 405px;
+}
+
+
+

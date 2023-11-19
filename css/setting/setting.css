@@ -1,0 +1,10 @@
+*{margin:0;padding:0}
+.wrapper{width:100%}
+@font-face{font-family:poppins;src:url("../../fonts/Poppins-Medium.ttf")}.active{color:whitesmoke !important}
+:root{
+    --white:#FFF;
+    --ghanari:#FCD980;
+    --black:#1b1c2b;
+}
+@font-face {font-family: manrope;src: url(../../fonts/Manrope-VariableFont_wght.ttf)}
+   

@@ -1,0 +1,215 @@
+
+.faq{
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFF;
+    width: 1283.31px;
+    height: 537px;
+    margin: 0 auto;
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+
+ .faq .faqH{
+    width: 328px;
+    height: 160px;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.faq .questions{
+    width: 846.31px;
+    height: 530px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.faq .faqH .top{
+    width: 328px;
+    color:  #282938;
+    font-family: Poppins;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px; 
+}
+
+.faq .faqH .bottom{
+    color: #2405F2;  
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px; 
+    opacity: 0.87;
+}
+
+.faq .questions .Q1{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 20px;
+    width: 814px;
+    height: 36px;
+    color:  #282938;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px; 
+}
+
+.faq .questions .Q1 .svg:hover{
+    rotate: 45deg;
+}
+
+div.faq>div.questions>div.Q1> .svg:hover p{
+    display: block;  
+}
+
+.faq .questions .Q1 p{
+    display: none;
+    background-color: transparent;
+    padding: 20px;
+    width: 750px ;
+    height: 40px ;
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 20px;
+    display: flex;
+    flex-flow: column wrap;
+    row-gap: 10px;
+    justify-content: flex-end;
+    display: none;
+    transition: 300ms;
+    
+    color: var(--Dark-blue, #282938);
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 32px; /* 177.778% */
+opacity: 0.87;
+padding-top: 2px;
+
+ 
+}
+
+.faq .questions .Q2{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 20px;
+    width: 814px;
+    height: 36px;
+    color:  #282938;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px; 
+}
+
+.faq .questions .Q2 .svg:hover{
+    rotate: 45deg;
+}
+
+.faq .questions .Q2 .svg:hover  p{
+    display: block;   
+}
+
+.faq .questions .Q2 p{
+    display: none;
+    background-color: blue;
+    padding: 20px;
+    width: 814px ;
+    height: 36px ;
+}
+
+.faq .questions .Q3{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 20px;
+    width: 814px;
+    height: 36px;
+    color: #282938;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px; 
+}
+
+.faq .questions .Q3 .svg:hover{
+    rotate: 45deg;
+}
+
+.faq .questions .Q3 .svg:hover  p{
+    display: block; 
+}
+
+.faq .questions .Q3 p{
+    display: none;
+    background-color: blue;
+    padding: 20px;
+    width: 814px ;
+    height: 36px ;
+}
+
+.faq .questions .Q4{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 20px;
+    width: 814px;
+    height: 36px;
+    color: var(--Dark-blue, #282938);
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px; 
+}
+
+.faq .questions .Q4 .svg:hover{
+    rotate: 45deg;
+}
+
+.faq .questions .Q4 .svg:hover  p{
+    display: block;  
+}
+
+.faq .questions .Q4 p{
+    display: none;
+    background-color: blue;
+    padding: 20px;
+    width: 814px ;
+    height: 36px ;
+}
+.faq .questions .Q5{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 20px;
+    width: 814px;
+    height: 36px;
+    color: #282938;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px; 
+}
+
+.faq .questions .Q5 .svg:hover{
+    rotate: 45deg;
+}
+
+.faq .questions .Q5 .svg:hover  p{
+    display: block; 
+}
+.faq .questions .Q5 p{
+    display: none;
+    background-color: blue;
+    padding: 20px;
+    width: 814px ;
+    height: 36px ;
+}

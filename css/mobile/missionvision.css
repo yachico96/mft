@@ -1,0 +1,123 @@
+.MV{
+    width: 100%;
+    height: 1350px;
+    background-color:#EEF4FA;
+    display: flex;
+    flex-flow: row wrap;
+  
+    justify-content: center;
+    box-sizing: border-box;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.MV .top{
+    width:  100%;
+    height: 236px;
+    color:#282938;
+    text-align: center;
+   
+   
+}
+
+.MV .top .left{
+    width:  100%;
+    height: 228px;
+    color: #282938;
+    margin-right: 140px;
+}
+
+.MV .top .left .one{
+    color:#282938;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; 
+    margin-top: 40px;
+
+}
+.MV .top .left .two{
+    width:  100%;
+    color: #282938;
+    font-family: Poppins;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px; 
+}
+
+.MV .top .left .three{
+    color: #282938;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    width:  100%;
+    opacity: 0.7;
+    text-align: justify;
+}
+
+.MV .top .right img{
+    width:  100%;
+    height: 336px;
+    object-fit: cover;
+    margin-top: 20px;
+}
+
+.MV .bottom .right .one{
+    color: #282938;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.MV .bottom .right .two{
+    width:  100%;
+    color:  #282938;
+    font-family: Poppins;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px; 
+    text-align: center;
+}
+
+.MV .bottom .right .three{
+    color:  #282938;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    width:  100%;
+    opacity: 0.7;
+    text-align: justify;
+}
+
+.MV .bottom{
+    width:  100%;
+    height: 334px;
+    color:#282938;
+    
+}
+
+.MV .bottom .left img{
+    width: 100%;
+    height: 334px;
+    object-fit: cover;
+    margin-top: 50px ;
+}
+
+.MV .bottom .right{
+    width:  100%;
+    height: 228px;
+    color: #282938;
+   
+}
+

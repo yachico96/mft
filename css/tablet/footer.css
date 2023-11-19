@@ -1,0 +1,128 @@
+.footer{
+    width: 100%;
+    height: 489px;
+}
+
+.footer .top{
+    width: 100%;
+    height: 397px;
+    background: #1C1E53;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.footer .top .right{
+    width:50%;
+    height: inherit;
+}
+
+.footer .top .left{
+    width:50%;
+    height: inherit;  
+}
+
+.footer .top .left .logo{
+    width: 160px;
+    height: 32.405px;
+    margin-left: 159px;
+    margin-top: 104px;
+}
+
+.footer .top .left .text{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; 
+    width: 399px;
+    opacity: 0.8;
+    margin-left: 160px;
+    margin-top: 24px;
+}
+
+.footer .top .left .info{
+    width: 517px;
+    height: 95px;
+    flex-shrink: 0;
+    background: #FCD980;
+    margin-left: 160px;
+    margin-top: 86px;
+}
+
+.footer .top .left .info svg{
+  margin-left: 37px;
+  margin-top: 17px;
+  margin-bottom: 16px;
+}
+
+.footer .top .right .title{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 64px; 
+    width: 333px;
+    margin-left: 141px;
+    margin-top: 96px;  
+}
+
+.footer .top .right .body{
+    color: #F4F6FC;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    width: 399px;
+    opacity: 0.8;
+    margin-top: 14px;
+    margin-left: 141px;
+}
+
+.footer .top .right .svg{
+    width: 144px;
+    height: 16px;
+    color:#FFFFFF;
+    margin-top: 28px;
+    margin-left: 141px;
+}
+
+.footer .bottom{
+    width: 100%;
+    height: 92px;
+    background:  #FFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer .bottom .copyright{
+    color: #282938;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; 
+    width: 241px;
+    height: 28px;
+    margin-left: 160px;
+}
+
+.footer .bottom .link{
+    width: 632px;
+    height: 28px;
+}
+
+.footer .bottom .link a{
+    color: #282938;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    text-decoration: none;
+    margin-right: 32px;
+}
+

@@ -1,0 +1,78 @@
+.howitworks{
+    width: 100%;
+    height: 661px;
+    background-color: #F4F6FC;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.howitworks  .heading{
+    width: 405px;
+    height: 200px;
+    display: flex;
+    flex-flow: row wrap;
+    margin-left:10px ;
+    margin-bottom: 100px;
+    background-color: #F4F6FC;  
+}
+
+.howitworks .heading .one{
+    width: 405px;
+    color: var(--Dark-blue, #282938);
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 64px; 
+    margin-top: 90px;  
+}
+
+.howitworks .heading .two{
+    width: 405px;
+   
+    color: var(--Dark-blue, #282938);
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; 
+    opacity: 0.7;
+    
+}
+
+.howitworks .heading .three{
+    width: 244px;
+    height: 32px;
+    color: var(--Royal-Blue, #2405F2);
+    font-family: Poppins;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px; 
+    cursor: pointer;
+}
+
+
+.howitworks .heading .three svg{
+    width: 10px;
+    height: 10px;
+    
+  
+}
+.howitworks  .cards{
+    width: 400px;
+    height: 300px;
+    margin-bottom: 60px;
+   
+    
+}
+
+.howitworks  .cards svg{
+    width: 400px;
+    height: 300px;
+ 
+    }
+
+

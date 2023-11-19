@@ -1,0 +1,56 @@
+.features{
+    width:100% ;
+    height:2300px ;
+    background-color: #F4F6FC;
+    margin: 0 auto;
+}
+
+.features .header{
+    width: 100%;
+    height: 232px;
+    color: #282938;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-around;
+   
+}
+
+.features .header .top{
+    width: 100%;
+    color: #282938;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+  
+    
+  
+}
+
+.features .header .bottom{
+    width: 100%;
+    color: #282938;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+     
+}
+
+.features .cardgroup{
+    display: flex;
+    flex-flow: wrap;
+    row-gap: 24px;
+    column-gap: 32px;
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 45px;
+    align-items: center;
+    justify-content: center;  
+}
+.features .cardgroup svg{
+    height: 300px;
+
+}

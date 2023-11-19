@@ -1,0 +1,77 @@
+.mainheader {
+    width: 100%;
+    height: 92px;
+    background-color: #1c1e53;
+  }
+  .mainheader .menu {
+    width: 100%;
+    height: 92px;
+    display: flex;
+    flex-flow: row wrap;
+  }
+  .mainheader .menu .logo {
+    width: 122px;
+    display: flex;
+    align-items: center;
+    margin-right: 352px;
+    margin-left: 160px;
+  }
+  .mainheader .menu .right {
+    width: auto;
+    height: auto;
+  }
+  .mainheader .menu .right nav {
+    width: inherit;
+    height: inherit;
+  }
+  .mainheader .menu .right nav ul {
+    width: inherit;
+    height: auto;
+    display: flex;
+    flex-flow: row wrap;
+    list-style: none;
+    column-gap: 42px;
+    justify-content: center;
+  }
+  .mainheader .menu .right nav ul li {
+    width: auto;
+    height: auto;
+  }
+  .mainheader .menu .right nav ul li a {
+    display: block;
+    width: auto;
+    height: auto;
+    color: #bbbbcb;
+    font-family: poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 90px;
+    text-transform: capitalize;
+    text-decoration: none;
+  }
+  .mainheader .menu .contact {
+    margin-left: 48px;
+    display: flex;
+    align-items: center;
+  }
+  .mainheader .menu .contact button {
+    width: 185px;
+    height: 60px;
+    border-radius: 41px;
+    border: 2px solid rgba(244, 246, 252, 0.2);
+    background-color: transparent;
+    color: #fff;
+    font-family: poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+  }
+  .mainheader .menu .contact button a{
+    text-decoration: none;
+  }
+  
+  .menuMobile {
+    display: none;
+  }

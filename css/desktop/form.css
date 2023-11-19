@@ -1,0 +1,98 @@
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 120px;
+}
+
+.form .fill{
+    width: 624px;
+    height: 688px;
+    background-color:#1C1E53 ;
+    margin-bottom: 4px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.form .fill .T .top{
+    width: 432px;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 48px;
+}
+
+.form .fill .T .bottom{
+    width: 432px;
+    color:  #F4F6FC;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; 
+}
+
+.form .fill .placeholder{
+    width: 432px;
+    height: 224px;
+    color: #F4F6FC;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 20px;
+    border-radius: 8px;
+}
+
+.form .fill .placeholder .box{
+    width: 432px;
+    height: 64px;
+    border-radius: 8px;
+    border: 1.5px solid rgba(255, 255, 255, 0.05);
+    color: #FFFFFF0D;
+}
+
+.form .fill .placeholder .box input{
+    width: 432px;
+    height: 64px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; 
+    opacity: 0.5;
+    
+}
+
+.form .fill .button{
+    display: flex;
+    width: 432px;
+    height: 64px;
+    padding: 15px 51px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 41px;
+    background: #FCD980;
+    color: #1B1C2B;
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px; 
+    cursor: pointer;
+}
+
+.form .fill .link{
+    width: 244px;
+    color: var(--White, #FFF);
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px; 
+    cursor: pointer;
+}

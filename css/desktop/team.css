@@ -1,0 +1,38 @@
+.team{
+    width: 100%;
+    height: 712px;
+    background: #F4F6FC;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center; 
+}
+
+.team .title{
+    color: #282938;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 64px;
+    margin-top: 90px;
+}
+
+.team .members{
+    width: 1280px;
+    height: 344px;
+    color: #1D2130;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    column-gap: 32px;
+    margin-bottom: 100px;
+}
+
+.team .members .m{
+    width: 296px;
+    height: 344px;
+    background: #FFF; 
+}
